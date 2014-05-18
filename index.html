@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Ayai - an intelligent open source MMORPG</title>
+		<link href='http://fonts.googleapis.com/css?family=Overlock|Lato' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8" />
+		<style>
+
+			* {
+				font-family: "Lato", sans-serif;
+				color: #333;
+			}
+
+			.left, .right, .header, .content { width: 50%; }
+			.left>div, .right>div {	margin-bottom: 5px; }
+	
+			.left, .header { float: left; }		
+
+			.right { 
+				float: right;
+				text-align: right;
+			}
+
+			.content {
+				float: right;
+				position: relative;
+				top: 95px;
+			}
+
+			h2 {
+				font-family: "Overlock";
+				margin: 0 0 5px 0;
+				color: #000;
+			}
+
+			a {
+				color: #009900;
+				text-decoration: none;
+			}
+			
+			a:hover {
+				text-decoration: underline;
+			}
+
+			.container {
+				width: 60%;
+				margin: 0 auto;
+			}
+
+			.header span {
+				text-align: right;
+			}
+
+			.abstract { clear: both; }
+			.abstract div { margin-bottom: 5px; }
+		</style>
+	</head>
+	<body>
+		
+		<div class="container">
+			<div class="header">
+				<img alt="Ayai" src="http://i.imgur.com/kI0dGqm.png">
+			</div>
+			<div class="content">
+				<div class="left">
+					<div>
+						<h2>developers</h2>
+						<div>jarrad battaglia</div>
+						<div>timothy hahn</div>
+						<div>joshua henry</div>
+						<div>ryan lerch</div>
+						<div>robert mruczek</div>
+						<div>jared roberts</div>
+						<div>kurt wheeler</div>
+					</div>
+				</div>
+				<div class="right">
+					<div>
+						<h2>supervisor</h2>
+						<div>santiago onta&ntilde;&oacute;n</div>
+					</div>
+					<div>
+						<h2>source</h2>
+						<div><a href="https://github.com/ayaigame">github</a></div>
+					</div>
+					<div>
+						<h2>documentation</h2>
+						<div><a href="">requirements</a></div>
+						<div><a href="">design</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="abstract">
+				<h2>abstract</h2>
+				<div>
+				The Massively-Multiplayer Online Role-Playing Game (MMORPG) genre is a popular type of game, including titles such as World of Warcraft. Creating and maintaining MMORPGs poses significant challenges such as maintaining a large number of connections, latency issues with data, and implementing efficient and complex AI. The intention of creating an AI system alongside an MMORPG system is to research challenges in maintaining a widely concurrent and evolving network, while simultaneously following a set of rules that, in our example, will be represented by the game.
+				</div>
+				<div>
+				Part of our solution is to create an efficient networking pipeline that allows for a large amount of players to interact with complex AI. We will additionally implement an AI component that is capable of dynamically changing many entities present in the game world, without causing collisions. Another goal includes developing an AI framework that can be easily extended and adapted to other systems.
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
